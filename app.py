@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Allow your frontend
-CORS(app, origins=["http://localhost:8080"])
+CORS(app)
 
 API_KEY = "ht_live_A5Rx8z5W5WY7lmOyLN5Ro3eDbFiQ24yYq1M7LBDR1odUcBBm"
 URL = "https://heavstal.com.ng/api/v1/jeden"
